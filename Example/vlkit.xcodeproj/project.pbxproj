@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0B175E9992097C96440DE2C2 /* Pods_vlkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0693E3A37F8BDA3221DD4E /* Pods_vlkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlkit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32167B91E63D8A1B0244AB28 /* vlkit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = vlkit.podspec; path = ../vlkit.podspec; sourceTree = "<group>"; };
+		32167B91E63D8A1B0244AB28 /* vlkit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = vlkit.podspec; path = ../vlkit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5ED84559329013041B4403BC /* Pods-vlkit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlkit_Tests.release.xcconfig"; path = "Target Support Files/Pods-vlkit_Tests/Pods-vlkit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* vlkit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vlkit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C19EC52B3F91CE60618BB22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C19EC52B3F91CE60618BB22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8077F95C9E6C016C5AB848BA /* Pods-vlkit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlkit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-vlkit_Tests/Pods-vlkit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3971D475C5AC8EC9270689B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A3971D475C5AC8EC9270689B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B4746C3E5CA6293A23123AA8 /* Pods-vlkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlkit_Example.debug.xcconfig"; path = "Target Support Files/Pods-vlkit_Example/Pods-vlkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C3604C4C580A95EAD32DE970 /* Pods-vlkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlkit_Example.release.xcconfig"; path = "Target Support Files/Pods-vlkit_Example/Pods-vlkit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				8077F95C9E6C016C5AB848BA /* Pods-vlkit_Tests.debug.xcconfig */,
 				5ED84559329013041B4403BC /* Pods-vlkit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - vlkit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - vlkit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  vlkit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  vlkit: 6d37ba0f3c00e2074328753c51646da522ef0d8e
+
+PODFILE CHECKSUM: 9f424cbbbe82a00d77e2d1b9be337d98948820d5
+
+COCOAPODS: 1.10.0

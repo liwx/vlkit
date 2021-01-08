@@ -1,0 +1,6 @@
+framework module vlkit {
+  umbrella header "vlkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
