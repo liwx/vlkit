@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'vlkit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'vlkit is a kit use by myself.'
 
 # This description is used to generate tags and improve search results.
