@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "NSObject+VLSwizzleMethod.h"
+#import "UIView+VLEnlargeEdge.h"
+#import "vlkit.h"
 
 FOUNDATION_EXPORT double vlkitVersionNumber;
 FOUNDATION_EXPORT const unsigned char vlkitVersionString[];

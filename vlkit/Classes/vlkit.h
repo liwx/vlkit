@@ -8,5 +8,8 @@
 #ifndef vlkit_h
 #define vlkit_h
 
+#import "UIView+VLEnlargeEdge.h"
 
 #endif /* vlkit_h */
+
+

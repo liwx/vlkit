@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = liwx;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = F5Q2THDY22;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			baseConfigurationReference = B4746C3E5CA6293A23123AA8 /* Pods-vlkit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5Q2THDY22;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "vlkit/vlkit-Prefix.pch";
 				INFOPLIST_FILE = "vlkit/vlkit-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = C3604C4C580A95EAD32DE970 /* Pods-vlkit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5Q2THDY22;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "vlkit/vlkit-Prefix.pch";
 				INFOPLIST_FILE = "vlkit/vlkit-Info.plist";

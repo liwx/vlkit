@@ -8,53 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01E352AC0BC7D4FCA29C9E3CEBE1979A /* vlkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3668FBFE9B7AA4F13C086738E6E1EB67 /* vlkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B56B46127AB43F5CC62694D298D1802 /* Pods-vlkit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0260A3BC3C7768EF2324F7AB8016C93 /* Pods-vlkit_Example-dummy.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		3E3A8C6001FF784CC32DCFD24EBA1878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		643EB38AE4473E6E937F79310A0D1094 /* UIView+VLEnlargeEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBC0A4CA65BB42E13773BFF2EC94066 /* UIView+VLEnlargeEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA9066B1FADAA6BA84B914B807D86ED /* NSObject+VLSwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A289ED171B22A6DAD5AEF9D5DAFCE /* NSObject+VLSwizzleMethod.m */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		760816958A4BAE46D113D6A7576EB7A8 /* Pods-vlkit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C04453F7C742D887F51697442488C01 /* Pods-vlkit_Tests-dummy.m */; };
 		7BB072FA24038C932B730FA2E6D6836A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		7CE54440BE89DB64DB3197A24057389C /* vlkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40122E9E4E77DBCFA18536148E27C544 /* vlkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		918A335FD561A8BC1933C4DCC1833540 /* vlkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65450449ACFA7457157706EB40CA05D0 /* vlkit-dummy.m */; };
+		95FE3C7F245969D809AD773E5C4C69D0 /* UIView+VLEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA83BA669BFBF56A7E551F525DD4F3C /* UIView+VLEnlargeEdge.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		B31724726CC64F17F28DD20B38077FFE /* Pods-vlkit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D84FE2AEE57ED38E38C6087FF328832A /* Pods-vlkit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B940E6BF8525462E69771FDCDAC78B6C /* vlkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D619BE5E102C0951EABB5DC2593D9DC /* vlkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D21680443F11CEC70BB131897D184E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D7C2F7E8396D18D65D1C48D2A2AEE664 /* Pods-vlkit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0F152CDEBEE0306082168238132B71 /* Pods-vlkit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E47853EAB25031980BB96E9A5CAC5C01 /* vlkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA3B5EDBFDE7D35ED37EDA850FAD86D /* vlkit-dummy.m */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EE6C4A69210EFA1BBA38E42107E207CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9B8DA5B034771829A5E40D738CFFC6 /* NSObject+VLSwizzleMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DA308BAEDE6D88C2CF6BDE862A26B5 /* NSObject+VLSwizzleMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B04DC5B60F0346B2FF1B47EADDDDF46A /* PBXContainerItemProxy */ = {
+		4F1E1370B7C9B0ABC4CAD0EBE22E1C54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 14B1B5A9D3E3869B34FBDDD7E62FE3A4;
 			remoteInfo = "Pods-vlkit_Example";
 		};
-		B9D4668C80B0D6ADB2879C24A2020AD8 /* PBXContainerItemProxy */ = {
+		8A9C2664A3BA5F4087643BA8D3608851 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3A4C352E085C9398302468BA426D3EEB;
 			remoteInfo = vlkit;
 		};
-		FF1A7EFD3034ACCC1B9FE1D06897D5AD /* PBXContainerItemProxy */ = {
+		C5F2DFBCF460729F47FACF0EB17C1FD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -64,63 +69,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082B3AB21F958698AAE280B77F897527 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		084F7DBC89589A650D8CE1BE365EECCE /* Pods-vlkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0DA56925CB6E0B8DAD1287F3B1B14C21 /* vlkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vlkit.release.xcconfig; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		15046D76572F0033245D322EB977DD82 /* vlkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = vlkit.modulemap; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		25A789CD1A0784AB6BAAEA961AF45BF3 /* Pods-vlkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlkit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2C0ABE62B63397E74296D75DFF07086F /* vlkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = vlkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0ABE62B63397E74296D75DFF07086F /* vlkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = vlkit.framework; path = vlkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		34937B6EF56487A48E3603BBEFA8AD80 /* Pods-vlkit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlkit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3668FBFE9B7AA4F13C086738E6E1EB67 /* vlkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vlkit-umbrella.h"; sourceTree = "<group>"; };
-		3BFCCB1E8599087013AA09F8AC637CEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3CDA057C8FB59B91A6D297708B329AA6 /* Pods_vlkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDA057C8FB59B91A6D297708B329AA6 /* Pods_vlkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_vlkit_Tests.framework; path = "Pods-vlkit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4BC8647DB614F2ABDE1F6F6D822A9B /* Pods-vlkit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlkit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		40122E9E4E77DBCFA18536148E27C544 /* vlkit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vlkit.h; path = vlkit/Classes/vlkit.h; sourceTree = "<group>"; };
+		453504E7DB475C4C7B7B409F75C83FB0 /* vlkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = vlkit.modulemap; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4707EB3A51A8085E2B4A82BE4ABB750B /* Pods-vlkit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vlkit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		55DC1105FA4FAE26C811875659B71D02 /* Pods-vlkit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlkit_Tests-Info.plist"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		57A112FE8261BE6D49A2CA1DF3F42736 /* vlkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = vlkit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5B7B918C9D0B09143BA391A40E420EEA /* Pods-vlkit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vlkit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65450449ACFA7457157706EB40CA05D0 /* vlkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vlkit-dummy.m"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6C04453F7C742D887F51697442488C01 /* Pods-vlkit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vlkit_Tests-dummy.m"; sourceTree = "<group>"; };
-		7955BB266811782FCC9A7BB43BB6EA26 /* vlkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vlkit-prefix.pch"; sourceTree = "<group>"; };
+		6CA83BA669BFBF56A7E551F525DD4F3C /* UIView+VLEnlargeEdge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+VLEnlargeEdge.m"; path = "vlkit/Classes/UIView+VLEnlargeEdge.m"; sourceTree = "<group>"; };
+		76523BEE4C13ACB01276A8C51BD55905 /* vlkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vlkit.debug.xcconfig; sourceTree = "<group>"; };
+		798D2DFC5914573718BF2316E17A119E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7C53841E3A6429A253713D7988743977 /* Pods-vlkit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vlkit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7E0F152CDEBEE0306082168238132B71 /* Pods-vlkit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vlkit_Example-umbrella.h"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		82D56C105120320DAF5989E2822334B4 /* vlkit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "vlkit-Info.plist"; sourceTree = "<group>"; };
-		868B6CC54467B4BAC53C5612CA3A9807 /* vlkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vlkit.release.xcconfig; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8E4CE5353663D7BCE7726D78D892C777 /* Pods-vlkit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vlkit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D619BE5E102C0951EABB5DC2593D9DC /* vlkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vlkit-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A073318409F12CE6B70DCB151E4E27E1 /* Pods-vlkit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vlkit_Tests.modulemap"; sourceTree = "<group>"; };
 		A15876B906CC76E2B6E64EB45729EB74 /* Pods-vlkit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlkit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8DA308BAEDE6D88C2CF6BDE862A26B5 /* NSObject+VLSwizzleMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+VLSwizzleMethod.h"; path = "vlkit/Classes/NSObject+VLSwizzleMethod.h"; sourceTree = "<group>"; };
+		AD543848FAECBE21CDEE5DE0E3BBB58A /* vlkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vlkit-prefix.pch"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B6913F463B97019E461945D2A93345F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5379BE79E94D71168EF45B1B844FE7C /* vlkit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "vlkit-Info.plist"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BB79EA94C4093D1857F4FCCE69E77373 /* Pods-vlkit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlkit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BEA3B5EDBFDE7D35ED37EDA850FAD86D /* vlkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vlkit-dummy.m"; sourceTree = "<group>"; };
-		C6B55DBE4E2974240D7A1C91A1367DE4 /* vlkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vlkit.debug.xcconfig; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CC280AEEDBE9BD31E12AC5898EA5004B /* Pods_vlkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlkit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC280AEEDBE9BD31E12AC5898EA5004B /* Pods_vlkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_vlkit_Example.framework; path = "Pods-vlkit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBC0A4CA65BB42E13773BFF2EC94066 /* UIView+VLEnlargeEdge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+VLEnlargeEdge.h"; path = "vlkit/Classes/UIView+VLEnlargeEdge.h"; sourceTree = "<group>"; };
 		D0260A3BC3C7768EF2324F7AB8016C93 /* Pods-vlkit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vlkit_Example-dummy.m"; sourceTree = "<group>"; };
+		D086BBA813E0C41EE4E51CDDD4A36967 /* vlkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = vlkit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D3E08DD9D25694B43944EA72A99FFF10 /* Pods-vlkit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlkit_Example-Info.plist"; sourceTree = "<group>"; };
 		D84FE2AEE57ED38E38C6087FF328832A /* Pods-vlkit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vlkit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		D9C0ABB525A826AD00F470BF /* vlkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlkit.h; sourceTree = "<group>"; };
+		DF3A289ED171B22A6DAD5AEF9D5DAFCE /* NSObject+VLSwizzleMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+VLSwizzleMethod.m"; path = "vlkit/Classes/NSObject+VLSwizzleMethod.m"; sourceTree = "<group>"; };
 		E4F12534E3E89B82DF9F1B811DCC2E11 /* Pods-vlkit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vlkit_Example.modulemap"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
@@ -154,11 +163,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECB2534F893E3374B9E38AF59D96CCAD /* Frameworks */ = {
+		E875585DE4AABFC9AB7A5385D9B3C87B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E3A8C6001FF784CC32DCFD24EBA1878 /* Foundation.framework in Frameworks */,
+				EE6C4A69210EFA1BBA38E42107E207CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,21 +191,6 @@
 			path = "Target Support Files/Pods-vlkit_Example";
 			sourceTree = "<group>";
 		};
-		49A1391C7D6093AFB2F63FBA3384C818 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				15046D76572F0033245D322EB977DD82 /* vlkit.modulemap */,
-				BEA3B5EDBFDE7D35ED37EDA850FAD86D /* vlkit-dummy.m */,
-				82D56C105120320DAF5989E2822334B4 /* vlkit-Info.plist */,
-				7955BB266811782FCC9A7BB43BB6EA26 /* vlkit-prefix.pch */,
-				3668FBFE9B7AA4F13C086738E6E1EB67 /* vlkit-umbrella.h */,
-				C6B55DBE4E2974240D7A1C91A1367DE4 /* vlkit.debug.xcconfig */,
-				868B6CC54467B4BAC53C5612CA3A9807 /* vlkit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/vlkit";
-			sourceTree = "<group>";
-		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +212,31 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		790E16BB40F87CFBC4FA99B5637616D7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				798D2DFC5914573718BF2316E17A119E /* LICENSE */,
+				082B3AB21F958698AAE280B77F897527 /* README.md */,
+				D086BBA813E0C41EE4E51CDDD4A36967 /* vlkit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		843454B11B73BF2A4715AB837895E1F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				453504E7DB475C4C7B7B409F75C83FB0 /* vlkit.modulemap */,
+				65450449ACFA7457157706EB40CA05D0 /* vlkit-dummy.m */,
+				B5379BE79E94D71168EF45B1B844FE7C /* vlkit-Info.plist */,
+				AD543848FAECBE21CDEE5DE0E3BBB58A /* vlkit-prefix.pch */,
+				9D619BE5E102C0951EABB5DC2593D9DC /* vlkit-umbrella.h */,
+				76523BEE4C13ACB01276A8C51BD55905 /* vlkit.debug.xcconfig */,
+				0DA56925CB6E0B8DAD1287F3B1B14C21 /* vlkit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/vlkit";
+			sourceTree = "<group>";
+		};
 		88033B90496B894177D63BA282EB9469 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,16 +246,6 @@
 				2C0ABE62B63397E74296D75DFF07086F /* vlkit.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8AB699B3699D339A9EE5987C3AC960AC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3BFCCB1E8599087013AA09F8AC637CEA /* LICENSE */,
-				B6913F463B97019E461945D2A93345F8 /* README.md */,
-				57A112FE8261BE6D49A2CA1DF3F42736 /* vlkit.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8BD8B0F9E8CB1433C52BB26308BFAE20 /* Targets Support Files */ = {
@@ -256,10 +265,10 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		955BD036B93B418E077A9C076993C887 /* Development Pods */ = {
+		99300CDB2A77A5549ED5A2318E11DD4F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFFE9AF6ADA3589A2B868C69587C7FFE /* vlkit */,
+				FCB4A656D83E33536F7E0C1850B43725 /* vlkit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -294,6 +303,7 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -301,23 +311,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				955BD036B93B418E077A9C076993C887 /* Development Pods */,
+				99300CDB2A77A5549ED5A2318E11DD4F /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				88033B90496B894177D63BA282EB9469 /* Products */,
 				8BD8B0F9E8CB1433C52BB26308BFAE20 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DFFE9AF6ADA3589A2B868C69587C7FFE /* vlkit */ = {
-			isa = PBXGroup;
-			children = (
-				D9C0ABB525A826AD00F470BF /* vlkit.h */,
-				8AB699B3699D339A9EE5987C3AC960AC /* Pod */,
-				49A1391C7D6093AFB2F63FBA3384C818 /* Support Files */,
-			);
-			name = vlkit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -356,9 +355,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FCB4A656D83E33536F7E0C1850B43725 /* vlkit */ = {
+			isa = PBXGroup;
+			children = (
+				A8DA308BAEDE6D88C2CF6BDE862A26B5 /* NSObject+VLSwizzleMethod.h */,
+				DF3A289ED171B22A6DAD5AEF9D5DAFCE /* NSObject+VLSwizzleMethod.m */,
+				CFBC0A4CA65BB42E13773BFF2EC94066 /* UIView+VLEnlargeEdge.h */,
+				6CA83BA669BFBF56A7E551F525DD4F3C /* UIView+VLEnlargeEdge.m */,
+				40122E9E4E77DBCFA18536148E27C544 /* vlkit.h */,
+				790E16BB40F87CFBC4FA99B5637616D7 /* Pod */,
+				843454B11B73BF2A4715AB837895E1F3 /* Support Files */,
+			);
+			name = vlkit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		32C4A54BF38C7F3FE01CB1B1A38EC172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9B8DA5B034771829A5E40D738CFFC6 /* NSObject+VLSwizzleMethod.h in Headers */,
+				643EB38AE4473E6E937F79310A0D1094 /* UIView+VLEnlargeEdge.h in Headers */,
+				B940E6BF8525462E69771FDCDAC78B6C /* vlkit-umbrella.h in Headers */,
+				7CE54440BE89DB64DB3197A24057389C /* vlkit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36CC54C25FBD49C536F5005AA5671814 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,14 +404,6 @@
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBDF42F7A5B7D7A295C1CDB6AB677B76 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01E352AC0BC7D4FCA29C9E3CEBE1979A /* vlkit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +430,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				76C4DACD858424229FF6C804032553C8 /* PBXTargetDependency */,
+				08C4EED52EDF2B93F15B5513408FAA1C /* PBXTargetDependency */,
 			);
 			name = "Pods-vlkit_Example";
 			productName = "Pods-vlkit_Example";
@@ -422,12 +439,12 @@
 		};
 		3A4C352E085C9398302468BA426D3EEB /* vlkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9F52DD0F246F24EE20C0FDB60077D39 /* Build configuration list for PBXNativeTarget "vlkit" */;
+			buildConfigurationList = 3FE03D37807C41E7B0F49854DA053AD1 /* Build configuration list for PBXNativeTarget "vlkit" */;
 			buildPhases = (
-				CBDF42F7A5B7D7A295C1CDB6AB677B76 /* Headers */,
-				8986C25C80FD57D1B0809CA9F6CF9F10 /* Sources */,
-				ECB2534F893E3374B9E38AF59D96CCAD /* Frameworks */,
-				73CA7A8AE737CA77E29D50224AE5EDCB /* Resources */,
+				32C4A54BF38C7F3FE01CB1B1A38EC172 /* Headers */,
+				87302842FFF3EE87FAA6636A5D54C1E0 /* Sources */,
+				E875585DE4AABFC9AB7A5385D9B3C87B /* Frameworks */,
+				00F9140BBD98E8F8B666FBD704F2339A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -450,8 +467,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE9411597A22D294ED316FFD19422B3A /* PBXTargetDependency */,
-				013C0BE7D80031B473C71325B550DA5E /* PBXTargetDependency */,
+				1D0B6EAF879C15E37EEA1DCC2C98E9B5 /* PBXTargetDependency */,
+				41CD801EA3A64F04957A377ABA88623F /* PBXTargetDependency */,
 			);
 			name = "Pods-vlkit_Tests";
 			productName = "Pods-vlkit_Tests";
@@ -507,6 +524,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		00F9140BBD98E8F8B666FBD704F2339A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E128F5437D0B14DC6B2BA4D1A53ADF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,13 +552,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73CA7A8AE737CA77E29D50224AE5EDCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -546,11 +563,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8986C25C80FD57D1B0809CA9F6CF9F10 /* Sources */ = {
+		87302842FFF3EE87FAA6636A5D54C1E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47853EAB25031980BB96E9A5CAC5C01 /* vlkit-dummy.m in Sources */,
+				6DA9066B1FADAA6BA84B914B807D86ED /* NSObject+VLSwizzleMethod.m in Sources */,
+				95FE3C7F245969D809AD773E5C4C69D0 /* UIView+VLEnlargeEdge.m in Sources */,
+				918A335FD561A8BC1933C4DCC1833540 /* vlkit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,23 +600,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		013C0BE7D80031B473C71325B550DA5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-vlkit_Example";
-			target = 14B1B5A9D3E3869B34FBDDD7E62FE3A4 /* Pods-vlkit_Example */;
-			targetProxy = B04DC5B60F0346B2FF1B47EADDDDF46A /* PBXContainerItemProxy */;
-		};
-		76C4DACD858424229FF6C804032553C8 /* PBXTargetDependency */ = {
+		08C4EED52EDF2B93F15B5513408FAA1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = vlkit;
 			target = 3A4C352E085C9398302468BA426D3EEB /* vlkit */;
-			targetProxy = B9D4668C80B0D6ADB2879C24A2020AD8 /* PBXContainerItemProxy */;
+			targetProxy = 8A9C2664A3BA5F4087643BA8D3608851 /* PBXContainerItemProxy */;
 		};
-		EE9411597A22D294ED316FFD19422B3A /* PBXTargetDependency */ = {
+		1D0B6EAF879C15E37EEA1DCC2C98E9B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = FF1A7EFD3034ACCC1B9FE1D06897D5AD /* PBXContainerItemProxy */;
+			targetProxy = C5F2DFBCF460729F47FACF0EB17C1FD7 /* PBXContainerItemProxy */;
+		};
+		41CD801EA3A64F04957A377ABA88623F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-vlkit_Example";
+			target = 14B1B5A9D3E3869B34FBDDD7E62FE3A4 /* Pods-vlkit_Example */;
+			targetProxy = 4F1E1370B7C9B0ABC4CAD0EBE22E1C54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -762,9 +781,9 @@
 			};
 			name = Debug;
 		};
-		8D2FF1C3747C6B9AA4FA1DA81F666A41 /* Debug */ = {
+		702AC7B5C916EA72C2A6B70EB0ED2E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6B55DBE4E2974240D7A1C91A1367DE4 /* vlkit.debug.xcconfig */;
+			baseConfigurationReference = 76523BEE4C13ACB01276A8C51BD55905 /* vlkit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -911,9 +930,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9AB869CD522D801B24B12F202D616FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA56925CB6E0B8DAD1287F3B1B14C21 /* vlkit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/vlkit/vlkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/vlkit/vlkit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/vlkit/vlkit.modulemap";
+				PRODUCT_MODULE_NAME = vlkit;
+				PRODUCT_NAME = vlkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -950,40 +1001,18 @@
 			};
 			name = Release;
 		};
-		FA3FB9DC64252702A41C58CDADC3798C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868B6CC54467B4BAC53C5612CA3A9807 /* vlkit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/vlkit/vlkit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/vlkit/vlkit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/vlkit/vlkit.modulemap";
-				PRODUCT_MODULE_NAME = vlkit;
-				PRODUCT_NAME = vlkit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3FE03D37807C41E7B0F49854DA053AD1 /* Build configuration list for PBXNativeTarget "vlkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702AC7B5C916EA72C2A6B70EB0ED2E19 /* Debug */,
+				D9AB869CD522D801B24B12F202D616FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1016,15 +1045,6 @@
 			buildConfigurations = (
 				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
 				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9F52DD0F246F24EE20C0FDB60077D39 /* Build configuration list for PBXNativeTarget "vlkit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D2FF1C3747C6B9AA4FA1DA81F666A41 /* Debug */,
-				FA3FB9DC64252702A41C58CDADC3798C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
