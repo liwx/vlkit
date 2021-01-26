@@ -11,6 +11,7 @@
 #endif
 
 #import "NSObject+VLSwizzleMethod.h"
+#import "NSString+VLURLEncode.h"
 #import "UIView+VLEnlargeEdge.h"
 #import "vlkit.h"
 

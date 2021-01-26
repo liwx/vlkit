@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - vlkit (0.1.0)
+  - vlkit (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  vlkit: 6d37ba0f3c00e2074328753c51646da522ef0d8e
+  vlkit: abb4bb00e1dc585a898c6148b7cd3ff696d29340
 
 PODFILE CHECKSUM: 9f424cbbbe82a00d77e2d1b9be337d98948820d5
 

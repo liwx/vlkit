@@ -9,6 +9,7 @@
 #define vlkit_h
 
 #import "UIView+VLEnlargeEdge.h"
+#import "NSString+VLURLEncode.h"
 
 #endif /* vlkit_h */
 
